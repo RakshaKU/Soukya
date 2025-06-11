@@ -1,0 +1,42 @@
+{
+    "muted": false,
+    "autostart": true,
+    "theme": "system",
+    "notification_frequency_minutes": 2,
+    "notification_duration": 8,
+    "notification_types": [
+        "eye",
+        "hydration",
+        "stretch"
+    ],
+    "quote_tone": "humorous",
+    "notification_position": "bottom-right",
+    "custom_message": "take medicine ",
+    "animation": {
+        "eye": "assets/blink_eyes.gif",
+        "hydration": "assets/water_bottle.gif"
+    },
+    "custom_reminders": [
+        {
+            "title": "med",
+            "days": [
+                "Wed"
+            ],
+            "time": "02:00 AM"
+        },
+        {
+            "title": "medicine",
+            "days": [
+                "Wed"
+            ],
+            "time": "02:30 AM"
+        },
+        {
+            "title": "jnin",
+            "days": [
+                "Mon"
+            ],
+            "time": "12:00 AM"
+        }
+    ]
+}
